@@ -1,0 +1,115 @@
+.contenu{
+	margin-left: 225px;
+    margin-right: 225px;
+	margin-top: 125px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.imagetitre{
+	width: 75px;
+	height: auto;
+	margin-left: 20px;
+	border-radius: 8px;
+}
+
+.imagetitre:hover{
+	filter: none;
+	width: 75px;
+	height: auto;
+}
+
+img{
+	width: 450px;
+	height: auto;
+	border-radius: 10px;
+	transition: 1.5s;
+}
+
+body{
+	background-image: url("image/fond.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Orbitron;
+}
+
+nav ul{
+    list-style: none;
+	display: flex;
+    gap: 30px;
+}
+
+header{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+	z-index: 1000;
+	width: 100%;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: gray;
+}
+
+img:hover{
+	width: 650px;
+	height: auto;
+}
+
+@font-face{
+    font-family: Orbitron;
+    src: url(police/Orbitron.ttf);
+}
+
+h1{
+	font-size:55px;
+}
+
+.liste{
+	list-style-position: inside;
+	padding-left: 0;
+	margin: 0 auto;
+	text-align: left;
+}
+
+table{
+	text-align: center;
+}
+
+.type{
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.type li{
+	margin: 10px;
+}
+
+.liste li{
+	margin: 10px;
+}	
+
+h2{
+	font-size: 35px;
+	color: #1B2236;
+}
